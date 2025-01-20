@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #6a1b9a; /* Purple */
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Navigation */
+nav {
+    background: #4a148c; /* Darker Purple */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e1bee7; /* Light Purple */
+}
+
+/* Sections */
+section {
+    margin: 40px 0;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out;
+}
+
+section h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #6a1b9a; /* Purple */
+    border-bottom: 2px solid #e1bee7; /* Light Purple */
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #4a148c; /* Darker Purple */
+}
+
+#skills ul li i {
+    margin-right: 10px;
+    color: #6a1b9a; /* Purple */
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #6a1b9a; /* Purple */
+    font-size: 1.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project a {
+    color: #3498db; /* Sky Blue */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Interests */
+#interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+#interests ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #4a148c; /* Darker Purple */
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #6a1b9a; /* Purple */
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #6a1b9a; /* Purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #4a148c; /* Darker Purple */
+}
+
+/* Footer */
+footer {
+    background: #4a148c; /* Darker Purple */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
